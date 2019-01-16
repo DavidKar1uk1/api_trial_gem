@@ -1,4 +1,14 @@
+require "api_trial_gem/client/connection"
+require "api_trial_gem/client/agents"
+require "api_trial_gem/client/customers"
+require "api_trial_gem/client/folders"
+require "api_trial_gem/client/groups"
+require "api_trial_gem/client/mailboxes"
+require "api_trial_gem/client/attachments"
+require "api_trial_gem/client/messages"
 require "api_trial_gem/client/tickets"
+require "api_trial_gem/client/webhooks"
+
 require "httparty"
 
 module ApiTrialGem

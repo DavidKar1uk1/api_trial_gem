@@ -1,6 +1,5 @@
 require "bundler/setup"
-require "api_trial_gem"
-require_relative '../../lib/api_trial_gem'
+require "k2_connect_ruby_api_gem"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
